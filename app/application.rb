@@ -5,7 +5,7 @@
      
         time = Time.now
      
-        if time <= Time.new(2015,11,27,9,30)
+        if (Time.now.hour>12 and Time.now.min>00)
           resp.write "Good Morning!"
         else
           resp.write "Good Afternoon!"
