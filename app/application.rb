@@ -6,7 +6,7 @@
         if (Time.now.hour >=12 and Time.now.min >= 00)
           resp.write "Good Afternoon!"
         else
-          resp.write 
+          resp.write "Good Morning!"
         end
      
         resp.finish
